@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 function Kontakt() {
     return (
         <main>
-            <Header />
+            <Header/>
             <Title title="Kontakt" />
             <section className="px-8 md:px-20 my-6">
                 <Image src={map} width={900} height={200} alt="map" className="w-full mb-6" />
