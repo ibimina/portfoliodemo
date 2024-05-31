@@ -3,9 +3,7 @@ import Ellipse from '@/assets/Ellipse.png'
 function Section() {
     return (
         <section className="my-4 mt-12 px-6 pb-8 lg:flex lg:flex-row flex-col items-center justify-center gap-12 lg:w-[950px] mx-auto lg:min-h-[70vh] lg:my-0">
-        {/* <div className=" mx-auto"> */}
-                <Image src={Ellipse} alt="elispis" width={300} height={491} className="mb-6 mx-auto" />
-        {/* </div> */}
+                <Image src={Ellipse} alt="elispis" width={300} height={491} className="mb-6 mx-auto border-8 rounded-full" />
         
         <div>
             <h2 className="mb-2 text-[#fff] opacity-25">Full Stack Developer</h2>
